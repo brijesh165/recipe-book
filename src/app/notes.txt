@@ -1,0 +1,13 @@
+Step: 1 -> Install Bootstrap@3
+Step: 2 -> Created Components like Header, Recipes (Sub-component: recipe-detail, recipe-list(Sub-component: recipe-item)),
+            Shopping-list (sub-component: shopping-edit)
+Step: 3 -> Add recipe.model.ts to recipes component
+
+
+How to use service for cross component communication?
+Step: 1 -> Create variable with EventEmitter inside Service.
+Step: 2 -> Emit this event wherever you want to use
+Step: 3 -> Listen for EventEmitter wherever you want this event using .subscribe()
+
+
+@Injactable(): -> Used to inject Service into Service
